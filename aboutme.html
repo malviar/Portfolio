@@ -23,7 +23,7 @@
   <a href="#contact" class="w3-button w3-bar-item">Contact Me</a>
 </nav>
 
-<!-- Slide Show -->
+<!-- Slide Show, CHANGE PICS SOON! -->
 <section>
 <img class="mySlides" src="https://68.media.tumblr.com/67503ca149a8a01fb8c8ca77f32d732f/tumblr_oqbcd5w64H1vse3rwo1_540.jpg"
   style="width:50%">
@@ -40,9 +40,9 @@
 <script>
 // Changing Slideshow, changes image every 3 seconds
 var myIndex = 0;
-carousel();
+switchPics();
 
-function carousel() {
+function switchPics() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
@@ -51,7 +51,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
+    setTimeout(switchPics, 3000);
 }
 </script>
 	
