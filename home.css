@@ -1,0 +1,91 @@
+.header {
+    background-image: url('https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20526264_1649307451809967_4228666223613637215_n.jpg?oh=2406ee0faef2705f83344d300e78f047&oe=5A350C8A');
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    padding: 150px;
+}
+h3{
+    color: #565857;
+    font-family: 'Arsenal' ;
+    font-size: 25px;
+    line-height: 50px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+h1 {
+   font-family: 'Arsenal';
+   text-align: center;
+   font-size: 150px;
+   line-height: 10px;
+   
+}
+
+p {
+    font-family: 'Arsenal';
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20526264_1649307451809967_4228666223613637215_n.jpg?oh=2406ee0faef2705f83344d300e78f047&oe=5A350C8A");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20597502_1649480251792687_3331752839633301910_n.jpg?oh=10cc728ec7a602957c6151a354f48c10&oe=59EE88C8");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20597191_1649480255126020_6674208160892970817_n.jpg?oh=f3331793bd500b0e93402ecac2f9d1c9&oe=59F7FA38");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  font-size: 100px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+.bios {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
